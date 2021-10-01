@@ -3,8 +3,12 @@
     <meta charset="UTF-8">
     <title>Practical 3</title>
     <style type="text/css">
+            body{
+                background: #fff;
+        }
             div
             {
+                
                 border-radius: 20px;
                 background-color: cyan;
                 color: navy;
