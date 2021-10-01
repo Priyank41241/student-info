@@ -80,12 +80,6 @@
                 <td><input type="email" name="email" id="email" placeholder="Email" ></td>
             </tr>
             <tr>
-                <td>Address:</td>
-                <td>
-                    <textarea name="address" placeholder="Address"></textarea>
-                </td>
-            </tr>
-            <tr>
                 <td colspan="2" align="center">
                     <input type="submit" name="submit" value="Register"> Register
                     <input type="reset" value="Cancel"> Cancel
