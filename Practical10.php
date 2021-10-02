@@ -4,7 +4,14 @@
     <title>Practical 3</title>
     <style type="text/css">
             body{
-                background: #fff;
+                  color: #999;
+  padding: 20px;
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  font-family: 'Raleway';
+  justify-content: center;
+  background-color: #fbfbfb;
         }
             div
             {
@@ -16,6 +23,26 @@
                 width:500px;
                 box-shadow: 2px 2px 5px black;
             }
+        .button{
+        width: 100%;
+  padding: 10px;
+  color: #00a7ee;
+  margin-top: 10px;
+  max-width: 400px;
+  text-align: center;
+  border: solid 1px white;
+  background-color: white;
+  -webkit-transition: color 0.2s ease-in, background-color 0.2s ease-in;
+  -moz-transition: color 0.2s ease-in, background-color 0.2s ease-in;
+  -ms-transition: color 0.2s ease-in, background-color 0.2s ease-in;
+  -o-transition: color 0.2s ease-in, background-color 0.2s ease-in;
+  transition: color 0.2s ease-in, background-color 0.2s ease-in;
+        }
+        .button:hover {
+  color: white;
+  cursor: pointer;
+  background-color: transparent;
+}
     </style>
 </head>
 <body>
@@ -79,13 +106,14 @@
                 <td>Email:</td>
                 <td><input type="email" name="email" id="email" placeholder="Email" ></td>
             </tr>
+            <div class="button">
             <tr>
-                <td colspan="2" align="center">
+                <td colspan="2" align="center" >
                     <input type="submit" name="submit" value="Register"> Register
                     <input type="reset" value="Cancel"> Cancel
                 </td>
             </tr>
-
+            </div>
         </table>
     </form>
 </center>
